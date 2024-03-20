@@ -1,0 +1,6 @@
+Description: Runs the provided mdfind command on the system.
+Args: command: The mdfind command to run. Must begin with "mdfind".
+Tools: sys.exec
+
+If the given command is an mdfind command, then run it. Otherwise, do not run it.
+If you do run the command, print its output verbatim, and do not change any of it or say anything else.
